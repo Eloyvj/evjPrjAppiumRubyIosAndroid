@@ -1,0 +1,4 @@
+[caps]
+platformName = "Android"
+deviceName = "Simulator"
+app = "/Users/eloy.vitorio/Desktop/estudo/Appium/build/apk/PreciseUnitConversion.apk"
