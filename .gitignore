@@ -51,3 +51,6 @@ build-iPhoneSimulator/
 
 # Mac Os Files
 *.DS_Store
+
+# Cucumber report files
+reports.html
