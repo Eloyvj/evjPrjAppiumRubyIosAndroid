@@ -1,5 +1,5 @@
-#  Project Appium-Ruby for functional automation tests Android and IOS
-xxxx
+#  Project Appium-Ruby for functional automation tests in Android and iOS
+Small project for show a automation test structure using Appium+Cucumber+Ruby (Android/iOS)
 
 ### Install Xcode
 
