@@ -145,6 +145,24 @@ xxxx
     * $ brew install allure-commandline
 * Test Allure works. Run $ allure in terminal. Verify you see allure menu options after.
 
+### Run tests
+
+* Appium server and android/Ios emulator must have been started
+* Go to root directory and type one of commands:
+    * Run test in Android
+        * rake android
+    * Run test in Android with html report
+        * rake android_report
+    * Run test in iOS
+        * rake ios
+    * Run test in iOS with html report
+        * rake ios_report
+    * Run both Android e iOS
+        * rake android_ios
+    * Run both Android e iOS with html report      
+        * rake android_ios_report
+* View full rake commands list in Rakefile
+
 
 
 

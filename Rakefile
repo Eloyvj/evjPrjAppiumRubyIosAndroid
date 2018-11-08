@@ -22,14 +22,29 @@ task :android do
   sh 'bundle exec cucumber -p android'
 end
 
+desc 'Run test in Android with html report'
+task :android_report do
+  sh 'bundle exec cucumber -p android --format html --out reports.html'
+end
+
 desc 'Run test in iOS'
 task :ios do
   sh 'bundle exec cucumber -p ios'
 end
 
+desc 'Run test in iOS with html report'
+task :ios_report do
+  sh 'bundle exec cucumber -p ios --format html --out reports.html'
+end
+
 desc 'Run both Android e iOS'
 task :android_ios do
   sh 'bundle exec cucumber -p ios & bundle exec cucumber -p android'
+end
+
+desc 'Run both Android e iOS with html report'
+task :android_ios_report do
+  sh 'bundle exec cucumber -p ios --format html --out reports_ios.html & bundle exec cucumber -p android --format html --out reports_android.html'
 end
 
 desc 'Open mode android console'
